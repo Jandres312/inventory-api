@@ -31,4 +31,3 @@ def get_db():
         yield db  # "presta" la conexión mientras se usa
     finally:
         db.close()  # siempre la cierra al terminar
-        

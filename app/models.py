@@ -44,4 +44,3 @@ class StockMovement(Base):
 
     # Relación inversa: cada movimiento pertenece a un producto
     product = relationship("Product", back_populates="movements")
-    
